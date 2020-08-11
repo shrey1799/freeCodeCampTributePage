@@ -1,0 +1,91 @@
+body{
+background:#fff;
+color: #333;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+/*     heading containeer    */
+
+#main{
+margin:10px 5px;
+background: #eee;
+border-radius: 10px;
+}
+
+#title>h1{
+    font-size: 2.5rem;
+    padding-top: 3%;
+}
+
+#title>p{
+    padding-bottom: 1%;
+}
+/* end of heading containeer */
+
+
+/*      image containner     */
+
+#img-div{
+    background-color: #fff;
+    margin: auto 5%;
+}
+
+#image{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption{
+    padding: 1% 0 2%;
+}
+
+/* end of image containeer */
+
+/*     tribute containeer    */
+#tribute-info{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding: 4% 4% 10px;
+}
+
+.tribute-info-heading{
+    font-weight: 600;
+    text-align: center;
+    margin: 8% auto 10%;
+    font-size: 1.1rem;
+}
+
+
+li{
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+span{
+    font-weight: 600;
+}
+
+footer{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+
+#tribute-link{
+    text-decoration: none;
+    color: #477ca7;
+}
+
+.manmohan-singh{
+    margin: auto 0 auto 5%;
+}
+
+@media (max-width:950px){
+    #tribute-info{
+        width: 80%;
+    }   
+}
